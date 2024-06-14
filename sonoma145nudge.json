@@ -36,7 +36,7 @@
             ],
             "actionButtonPath": "munki://updates",
             "majorUpgradeAppPath": "/Applications/Install macOS Sonoma.app",
-            "requiredInstallationDate": "2024-06-31T00:00:00Z",
+            "requiredInstallationDate": "2024-06-16T00:00:00Z",
             "requiredMinimumOSVersion": "14.6",
             "targetedOSVersionsRule": "default"
         }
