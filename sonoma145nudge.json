@@ -2,7 +2,7 @@
     "optionalFeatures": {
         "acceptableApplicationBundleIDs": [],
         "acceptableAssertionUsage": false,
-        "acceptableCameraUsage": false,
+        "acceptableCameraUsage": true,
         "acceptableScreenSharingUsage": false,
         "aggressiveUserExperience": false,
         "aggressiveUserFullScreenExperience": false,
@@ -15,26 +15,25 @@
     },
     "osVersionRequirements": [
         {
-            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT211896#macos1121",
+            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/109035",
             "aboutUpdateURLs": [
                 {
                     "_language": "en",
-                    "aboutUpdateURL": "https://support.apple.com/en-us/HT211896#macos1121"
+                    "aboutUpdateURL": "https://support.apple.com/en-us/109035"
                 },
                 {
                     "_language": "es",
-                    "aboutUpdateURL": "https://support.apple.com/es-es/HT211896"
+                    "aboutUpdateURL": "https://support.apple.com/en-us/109035"
                 },
                 {
                     "_language": "fr",
-                    "aboutUpdateURL": "https://support.apple.com/fr-fr/HT211896"
+                    "aboutUpdateURL": "https://support.apple.com/en-us/109035"
                 },
                 {
                     "_language": "de",
-                    "aboutUpdateURL": "https://support.apple.com/de-de/HT211896"
+                    "aboutUpdateURL": "https://support.apple.com/en-us/109035"
                 }
             ],
-            "actionButtonPath": "munki://updates",
             "majorUpgradeAppPath": "/Applications/Install macOS Sonoma.app",
             "requiredInstallationDate": "2024-06-16T00:00:00Z",
             "requiredMinimumOSVersion": "14.6",
@@ -65,7 +64,6 @@
         "randomDelay": false
     },
     "userInterface": {
-        "actionButtonPath": "munki://updates",
         "fallbackLanguage": "en",
         "forceFallbackLanguage": false,
         "forceScreenShotIcon": false,
